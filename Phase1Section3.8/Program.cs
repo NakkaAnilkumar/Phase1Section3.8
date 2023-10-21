@@ -11,6 +11,7 @@ namespace Phase1Section3._8
         static void Main(string[] args)
         {
             doApp();
+            Console.ReadLine();
         }
 
         public static void doApp()
@@ -31,7 +32,7 @@ namespace Phase1Section3._8
             DateTime date2 = new DateTime(2019, 1, 2, 14, 0, 15);
             TimeSpan value = date1.Subtract(date2);
             Console.WriteLine("TimeSpan between two dates is {0} hours", value);
-            Console.ReadLine();
+            
         }
         
 
